@@ -1,0 +1,24 @@
+#configuration file for the evaluation questionnaires
+#activation can be location, button or time
+#location is activated once for each of the saved locations
+#  that the user approaches within the defined range
+#time is activated repeatedly in a given frequency
+#button is activated on demand when the user presses a button
+
+activation=button
+
+#button name is for button activation
+buttonName = Evaluate!
+
+#frequency is for time activation, in minutes
+frequency=2
+
+#range is for location activation in meters
+range=10
+
+title=How are you feeling right now?
+question1=very sad
+question2=sad
+question3 = neutral
+question4=happy
+question5 = very happy

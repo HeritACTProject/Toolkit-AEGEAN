@@ -1,0 +1,29 @@
+#configuration file
+#for the analysis of the user data
+
+#these are used by the analysis app
+eda_thres=0.7
+eda_offset=1.0
+eda_start_wt=4
+eda_end_wt=4
+ibi_window_size=120
+facecam_freq=2
+
+#these are used by the visualization app
+experiment = My evaluation
+eda_high_perc = 0.1
+eda_very_high_perc = 0.2
+eda_values = medium,#cddce4,high,#bad1dd,very high,#a5c7d8
+eda_graph_color = #a5c7d8
+ibi_high_perc = 0.2
+ibi_very_high_perc = 0.3
+ibi_values = baseline,#e5e5e5,very low,#dfe7eb,low,#dfebe5,medium,#ebe9df,high,#ebe4df,very high,#ebdfe2
+ibi_graph_color = #ebdfe2
+tag_type = state
+tag_values = onboarding,#eeeeee,first task,#eeffee,second task,#eeeeff,reflection,#eeeeee
+facecam_values = angry,#ebdfdf,disgust,#e5ebdf,fear,#e5dfeb,happy,#ebebdf,sad,#dfdfeb,surprise,#ebe5df,neutral,#e5e5e5
+map_top_left = 37.44585,24.94123
+map_bottom_right = 37.44485,24.94288
+gps_graph_color = #d0d0d0
+response_type = satisfaction
+response_values = not at all,#eff4ef,little,#dfebdf,medium,#cde4cd,high,#baddba,full,#a5d8a5
