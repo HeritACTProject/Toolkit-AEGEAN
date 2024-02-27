@@ -14,4 +14,4 @@ The folder includes the Visualization and Mobile Application, alongside the User
 ## Development
 Usersence also includes two open-source projects:
 [EDA-Explorer](https://eda-explorer.media.mit.edu/) under the MIT License.
-[MediaPipe] (https://developers.google.com/mediapipe) under Apache License.
+[MediaPipe](https://developers.google.com/mediapipe) under Apache License.
